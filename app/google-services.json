@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1064471973225",
+    "firebase_url": "https://kualitas-air-8b1a5.firebaseio.com",
+    "project_id": "kualitas-air-8b1a5",
+    "storage_bucket": "kualitas-air-8b1a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064471973225:android:cc63f34b5eafee62aa01f8",
+        "android_client_info": {
+          "package_name": "com.example.monitoringair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064471973225-ls117m6ivjck0p0j8mrlc118ggasvmq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monitoringair",
+            "certificate_hash": "b9418348620ec95103e0f159c8979dd1e75ddaad"
+          }
+        },
+        {
+          "client_id": "1064471973225-06c1gfo65u9ooofh6hq5rg6e8jmqk9uj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmwrz8BFnWi4ngqhf_Lq4kJFieABjjJas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064471973225-06c1gfo65u9ooofh6hq5rg6e8jmqk9uj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

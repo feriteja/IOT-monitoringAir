@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient_color"
+        android:id="@+id/headerCont"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wellcome"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:id="@+id/wellcomeText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/pengguna"
+        android:layout_below="@+id/wellcomeText"
+        android:text="nama pengguna"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_rupiah"/>
+
+    <RelativeLayout
+        android:id="@+id/hargapengguna"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="120dp"
+
+        android:background="#45FFFFFF"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:textSize="20dp"
+            android:text="Tagihan"
+            />
+
+        <TextView
+            android:id="@+id/textHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:text="nilai tagihan"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginHorizontal="80dp"
+        android:layout_below="@+id/headerCont"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+
+            <me.itangqi.waveloadingview.WaveLoadingView
+                android:id="@+id/tingkatKeruh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:wlv_borderColor="#000"
+                app:wlv_borderWidth="15dp"
+                app:wlv_shapeType="rectangle"
+                app:wlv_round_rectangle="true"
+                app:wlv_triangle_direction="north"
+                app:wlv_progressValue="70"
+                app:wlv_round_rectangle_x_and_y="50"
+                app:wlv_waveAmplitude="20"
+                android:layout_margin="7dp"
+                android:layout_centerHorizontal="true"
+                app:wlv_waveColor="#87cefa"
+
+                app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+                app:wlv_titleCenterStrokeWidth="2dp"
+                app:wlv_titleCenterColor="@android:color/white"
+                app:wlv_titleCenterSize="24sp"
+
+                app:wlv_titleTopStrokeColor="@android:color/holo_blue_dark"
+                app:wlv_titleTopStrokeWidth="2dp"
+                app:wlv_titleTopColor="@android:color/white"
+                app:wlv_titleTopSize="24sp"
+
+                app:wlv_titleBottomStrokeColor="@android:color/holo_blue_dark"
+                app:wlv_titleBottomStrokeWidth="2dp"
+                app:wlv_titleBottomColor="@android:color/white"
+                app:wlv_titleBottomSize="24sp"
+
+                />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>
